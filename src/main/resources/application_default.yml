@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: validate
+    properties:
+      jadira.usertype.autoRegisterUserTypes: true
+      jadira.usertype.databaseZone: UTC
+      jadira.usertype.javaZone: UTC
+
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/{DB_NAME}
+    username: {USERNAME}
+    password: {PASSWORD}
+
+  logging:
+    level: INFO
+
+  flyway:
+    baseline-on-migrate: true
+
+

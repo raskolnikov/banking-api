@@ -1,0 +1,4 @@
+INSERT INTO customers (id, first_name, last_name, created_at, updated_at ) values (1, 'Arisha', 'Barron', to_timestamp(1607675675), to_timestamp(1607675675)) ;
+INSERT INTO customers (id, first_name, last_name, created_at, updated_at ) values (2, 'Branden', 'Gibson', to_timestamp(1607675675), to_timestamp(1607675675)) ;
+INSERT INTO customers (id, first_name, last_name, created_at, updated_at ) values (3, 'Rhonda', 'Church', to_timestamp(1607675675), to_timestamp(1607675675)) ;
+INSERT INTO customers (id, first_name, last_name, created_at, updated_at ) values (4, 'Georgina', 'Hazel', to_timestamp(1607675675), to_timestamp(1607675675)) ;

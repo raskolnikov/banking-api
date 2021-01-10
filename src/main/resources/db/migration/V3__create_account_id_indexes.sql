@@ -1,0 +1,2 @@
+CREATE INDEX transfers_account_created_index ON transfers USING btree (account_id, created_at);
+CREATE INDEX balance_transactions_account_created_index ON transfers USING btree (account_id, created_at);
